@@ -9,8 +9,8 @@ updates:
     groups:
       all-version-updates:
         applies-to: version-updates
-        #patterns:
-        #  - "*"
+        patterns:
+          - "*"
       security-by-dep:
         applies-to: security-updates
         group-by: dependency-name
