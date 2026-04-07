@@ -1,16 +1,12 @@
 version: 2
 updates:
-  - package-ecosystem: "github-actions"
+  - package-ecosystem: github-actions
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: daily
     cooldown:
-      default-days: 7
+      default-days: 10
     groups:
-      all-version-updates:
-        applies-to: version-updates
+      github-actions:
         patterns:
           - "*"
-      security-by-dep:
-        applies-to: security-updates
-        group-by: dependency-name
