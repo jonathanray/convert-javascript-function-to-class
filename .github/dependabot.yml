@@ -12,7 +12,7 @@ updates:
         patterns:
           - "*"
   - package-ecosystem: github-actions
-    directory: "/"
+    directory: "/.github/"
     schedule:
       interval: daily
     cooldown:
