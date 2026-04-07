@@ -27,7 +27,7 @@
     "@typescript-eslint/parser": "^2.32.0",
     "declaration-bundler-webpack-plugin": "^1.0.3",
     "eslint": "^6.8.0",
-    "jest": "^25.5.4",
+    "jest": "^30.3.0",
     "lodash": "^4.17.15",
     "rimraf": "^3.0.2",
     "ts-jest": "^25.5.1",
